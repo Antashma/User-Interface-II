@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 body {
-    padding: 100px;
+    padding: 50px 100px;
+    background: url('../img/hip-square.png') repeat floralwhite;
+    max-width: 800px;
+    min-width: 600px;
 }
 
 h1, h2 {
@@ -12,16 +15,27 @@ h1, h2 {
 
 h1 {
     font-size: 2.5em;
-    color: floralwhite;
+    color:floralwhite;
     text-shadow: 2px 2px 2px black;
     width: 75%;
     text-align: center;
-    border-bottom: 1px dashed white;
 
 }
 
 h2 {
     font-size: 2em;
+}
+
+nav a {
+    background: deeppink;
+    padding:10px;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+nav a:hover {
+    background: pink;
+    color: #333;
 }
 
 a {
@@ -30,11 +44,14 @@ a {
 }
 
 header {
+    margin-bottom: 20px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    border-bottom: 1px dashed black;
 
 }
+
 
 button {
     padding: 10px;
@@ -42,10 +59,15 @@ button {
     border: none;
 }
 
+footer {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
 .main {
-    background: url("https://picsum.photos/100/400") repeat mistyrose;
+    background: url("https://picsum.photos/800/600") no-repeat mistyrose;
     width:100%;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +76,8 @@ button {
 }
 
 .featured {
+    width: 100%;
     display: flex;
-    flex-flow: flex-start wrap;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
