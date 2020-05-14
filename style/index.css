@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    background: pink;
+    background: palevioletred;
     color: #333;
 }
 
@@ -78,6 +78,6 @@ footer {
 .featured {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
