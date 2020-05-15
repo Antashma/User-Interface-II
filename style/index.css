@@ -83,16 +83,20 @@ h2 {
     font-size: 2em;
 }
 
+nav:hover, nav:focus {
+    text-transform: uppercase;
+    color: white;
+}
+
 a {
     padding:0.5rem;
-    background: deeppink;
+    background: mediumturquoise;
     text-decoration: none;
-    color: pink;
+    color: lemonchiffon;
 }
 
 a:hover, a:active {
-    background: palevioletred;
-    color: #333;
+    background: aqua;
 }
 
 
