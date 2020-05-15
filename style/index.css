@@ -56,17 +56,18 @@ html {
 }
 
 body {
+    margin:0 auto;
     padding: 50px 100px;
     background: url('../img/hip-square.png') repeat floralwhite;
     max-width: 800px;
     min-width: 600px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:1.5rem;
 }
 
 h1, h2 {
     font-family: 'Sacramento', sans-serif;
-    
+    font-weight: bold;
 }
 
 h1 {
@@ -83,21 +84,16 @@ h2 {
     font-size: 2em;
 }
 
-nav a {
+a {
     background: deeppink;
     padding:10px;
     text-decoration: none;
-    color: floralwhite;
+    color: pink;
 }
 
-nav a:hover {
+a:hover {
     background: palevioletred;
     color: #333;
-}
-
-a {
-    font-weight: bold;
-    color: mediumturquoise;
 }
 
 header {
@@ -121,10 +117,13 @@ footer {
     padding-top: 20px;
     border-top: 1px dashed black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .banner {
+    margin-bottom:20px;
     background: url("https://picsum.photos/800/600") no-repeat mistyrose;
     width:100%;
     height: 375px;
@@ -132,6 +131,14 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+.banner p {
+    margin: 20px;
+    padding:10px;
+    line-height: 1.5;
+    background: mistyrose;
 
 }
 
@@ -150,8 +157,18 @@ footer {
     flex-direction: column;
 }
 
+img, .banner {
+    border:2px solid black;
+    box-sizing: border-box;
+
+}
+
 figcaption {
     margin-top:10px;
     text-align: center;
     font-weight: bold;
+}
+
+.social {
+    margin-top:20px;
 }
