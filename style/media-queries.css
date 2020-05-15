@@ -18,17 +18,17 @@
     }
 
     header h2 {
-        padding: 20px;
+        padding-bottom:1.5rem;
     }
 
-    header nav {
-        justify-content: space-around;
-    }
 }
 
 @media(max-width: 500px) {
     body {
         background: mediumpurple;
+        font-size: 1.5rem;
     }
+
+    
 
 }
