@@ -58,9 +58,10 @@ html {
 body {
     margin:0 auto;
     padding: 10%;
+    max-width:1000px;
     background: url('../img/hip-square.png') repeat floralwhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:1.5rem;
+    font-size:2rem;
 }
 
 h1, h2 {
@@ -69,11 +70,10 @@ h1, h2 {
 }
 
 h1 {
-    margin: 20px 0;
-    font-size: 2.5em;
+    font-size: 5rem;
     color:floralwhite;
     text-shadow: 2px 2px 2px black;
-    width: 75%;
+    width: 50%;
     text-align: center;
 
 }
@@ -84,19 +84,17 @@ h2 {
 
 a {
     background: deeppink;
-    padding:10px;
     text-decoration: none;
     color: pink;
 }
 
-a:hover {
+a:hover, a:active {
     background: palevioletred;
     color: #333;
 }
 
+
 header {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -104,15 +102,7 @@ header {
 
 }
 
-
-button {
-    padding: 10px;
-    background: deeppink;
-    border: none;
-}
-
 footer {
-    padding-top: 20px;
     border-top: 1px dashed black;
     display: flex;
     flex-direction: column;
@@ -121,8 +111,7 @@ footer {
 }
 
 .banner {
-    margin-bottom:20px;
-    background: url("https://picsum.photos/800/600") no-repeat mistyrose;
+    background: url("https://picsum.photos/1000/") center no-repeat mistyrose;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -132,15 +121,13 @@ footer {
 }
 
 .banner p {
-    margin: 20px;
-    padding:10px;
+    padding:2rem;
     line-height: 1.5;
     background: mistyrose;
 
 }
 
 .featured {
-    margin-top:20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +136,6 @@ footer {
 }
 
 .featured figure {
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -165,11 +151,10 @@ img, .banner {
 }
 
 figcaption {
-    margin-top:10px;
     text-align: center;
     font-weight: bold;
 }
 
 .social {
-    margin-top:20px;
+
 }
