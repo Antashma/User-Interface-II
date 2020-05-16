@@ -1,1 +1,171 @@
-/* Add CSS styling here */
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* START RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+html {
+    font-size:62.5%;
+}
+
+body {
+    margin:0 auto;
+    padding: 10%;
+    max-width:1000px;
+    background: url('../img/hip-square.png') repeat floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2rem;
+}
+
+h1, h2 {
+    font-family: 'Sacramento', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5rem;
+    color:floralwhite;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    width: 50%;
+    text-align: center;
+
+}
+
+h2 {
+    margin:1.5rem 0;
+    font-size: 2em;
+}
+
+nav:hover, nav:focus {
+    text-transform: uppercase;
+    color: white;
+}
+
+a {
+    padding:0.5rem;
+    background: mediumturquoise;
+    text-decoration: none;
+    color: lemonchiffon;
+}
+
+a:hover, a:active {
+    background: aqua;
+}
+
+
+header {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 0.1rem dashed black;
+
+}
+
+footer {
+    padding-top: 3rem;
+    border-top: 0.1rem dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    padding: 1rem;
+    background: url("https://picsum.photos/1000/") center no-repeat mistyrose;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner p {
+    padding:2rem;
+    margin-bottom:2rem;
+    line-height: 1.5;
+    background: mistyrose;
+
+}
+
+.featured {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.featured figure {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+img, .banner {
+    border:0.2rem solid black;
+    box-sizing: border-box;
+
+}
+
+.about-link {
+    display: none;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+.social {
+    margin-top: 2rem;
+}
